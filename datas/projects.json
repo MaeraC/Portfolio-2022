@@ -1,0 +1,107 @@
+[
+ {
+  "image": "assets/projects-img/booki.png",
+  "title": "Projet Booki",
+  "link": "https://maerac.github.io/Booki/",
+  "description": "Outil de planification de vacances pour trouver des hébergements et des activités dans la ville de son choix.",
+  "tags": [
+      "Responsive Design",
+      "HTML - CSS"
+    ]
+ },
+ {
+  "image": "assets/projects-img/omfood.png",
+  "title": "Projet Oh My Food",
+  "link": "https://maerac.github.io/Ohmyfood/",
+  "description": "Site de réservation de restaurant avec composition de son menu en ligne.",
+  "tags": [
+      "Mobile First",
+      "Animations Dynamiques",
+      "HTML - SASS"
+    ]
+ },
+ {
+  "image": "assets/projects-img/gameOn.png",
+  "title": "Projet Game On",
+  "link": "https://maerac.github.io/GameOn/starterOnly/index.html",
+  "description": "Landing page annonçant le prochain événement GameOn auquel l'utilisateur peut s'inscrire via le formulaire.",
+  "tags": [
+      "Contrôle dynamique de saisies",
+      "Responsive Design",
+      "HTML - CSS - JS"
+    ]
+ },
+ {
+  "image": "assets/projects-img/fisheye.png",
+  "title": "Projet Fisheye",
+  "link": "https://maerac.github.io/Fisheye/",
+  "description": "Plateforme d'exposition pour photographes freelance avec galerie dédiée.",
+  "tags": [
+      "Lightbox Gallery",
+      "Accessibilité ARIA",
+      "Fetch Database",
+      "HTML - CSS - JS"
+    ]
+ },
+ {
+  "image": "assets/projects-img/learn.png",
+  "title": "Projet Learn at home",
+  "link": "https://www.figma.com/file/pF3OuMLeYEl6elstEBFeJj/Learn%40Home?node-id=0%3A1",
+  "description": "Site associatif de soutien scolaire en ligne avec espace élève et espace bénévole.",
+  "tags": [
+      "Gestion d'un projet agile",
+      "Diagrammes de cas d'utilisation",
+      "User Stories",
+      "Création de maquettes UX/UI",
+      "Responsive Design"
+    ]
+ },
+ {
+  "image": "assets/projects-img/funnyjokes.png",
+  "title": "Projet Funny Jokes",
+  "link": "https://maerac.github.io/Funny-Jokes/",
+  "description": "Générateur de blagues.",
+  "tags": [
+      "Projet personnel",
+      "Jeu"
+    ]
+ },
+ {
+  "image": "assets/projects-img/bubble.png",
+  "title": "Projet Bubbles Game",
+  "link": "https://maerac.github.io/Bubble-Game/",
+  "description": "Générateur de bulles.",
+  "tags": [
+      "Projet personnel",
+      "Jeu"
+    ]
+ },
+ {
+  "image": "assets/projects-img/calc.png",
+  "title": "Projet Calculatrice",
+  "link": "https://maerac.github.io/Calculatrice/",
+  "description": "Création d'une calculatrice.",
+  "tags": [
+      "Projet personnel"
+    ]
+ },
+ {
+  "image": "assets/projects-img/nature.png",
+  "title": "Projet Nature et moi",
+  "link": "https://maerac.github.io/NaturEmoi/",
+  "description": "Front d'une boutique en ligne.",
+  "tags": [
+      "Projet personnel"
+    ]
+ },
+  {
+  "image": "assets/projects-img/music.png",
+  "title": "Projet Jeu de musique",
+  "link": "https://maerac.github.io/MusicKeyboard/",
+  "description": "Jouer de la musique - Music keyboard.",
+  "tags": [
+      "Projet personnel",
+      "Jeu"
+    ]
+ }
+]

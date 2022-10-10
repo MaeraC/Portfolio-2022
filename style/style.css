@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CLASS **************************************************/
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    margin: 0;
+    text-shadow: 4px 4px 7px rgb(107, 107, 107);
+    color: #272747;
+}
+
+.bg-section {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: url("../assets/webb.jpg") black fixed no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.box-shadow {
+    box-shadow: rgb(177, 177, 177) 10px 8px 15px 1px;
+}
+
+/* HEADER *************************************************/
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #272747;
+    position: fixed;
+    z-index: 9999;
+    color: white;
+    padding: 20px;
+    padding-right: 0px;
+    height: 50px;
+}
+.logo {
+    align-self: center;
+    margin-left: 10px;
+    font-style: italic;
+    font-family: "Dancing Script";
+    font-size: 25px;
+}
+.nav {
+    width: 40%;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.list {
+    padding: 0 20px;
+    line-height: 14px;
+}
+.list a:hover {
+    color: #FFB4A2;
+    transition: 0.3s;
+}
+
+/* HOME *************************************************/
+
+.home {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(../assets/heroimage4.PNG) no-repeat fixed 0px 0px;
+    background-size: 100% 100%;
+}
+.home::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000030;
+    opacity: 0.7;
+}
+.content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 999;
+    line-height: 70px;
+}
+.welcome {
+    font-weight: 400;
+    color: #DDBEA9;
+    font-size: 30px;
+    font-family: "Advent Pro", sans-serif;
+}
+.name {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    font-family: "Advent Pro", sans-serif;
+}
+.animation {
+    font-weight: normal;
+    color: #FFB4A2;
+    font-family: "Advent Pro", sans-serif;
+}
+
+/* PROFILE *************************************************/
+
+.profile {
+    height: 80vh;
+    margin-bottom: 30px;
+}
+.contents {
+    display: flex;
+    justify-content: center;
+}
+.contents img {
+    width: 200px;
+    height: 260px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.contents p {
+    width: 40%;
+    line-height: 22px;
+    margin: 0;
+}
+
+/* QUOTES *************************************************/
+
+.section-quote p {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffbfaf;
+    width: 50%;
+    line-height: 25px;
+    text-align: center;
+}
+.section-quote::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.8;
+}
+
+/* SKILLS *************************************************/
+
+.skills-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cv-container {
+    display: flex;
+    flex-direction: column;
+}
+.cv-container img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+.cv-container a {
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    align-self: center;
+    background-color: #000030;
+    text-align: center;
+    padding: 6px;
+}
+
+.skills-animation {
+    width: 45%;
+    margin-top: 30px;
+}
+.skill-bar {
+    position: relative;
+    background: rgba(228, 226, 226, 0.637);
+    justify-content: flex-start;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+} 
+.skills-value {
+    height: 40px;
+    width: 0;
+    line-height: 40px;
+    padding-left: 20px;
+    font-style: italic;
+    background: #ffa28a;
+}
+.skill-bar span , .skill-bar1 span{
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 999;
+}
+
+.html-bar {
+    animation: html 4s normal forwards;
+}
+.css-bar {
+    animation: css 4s normal forwards;
+}
+.js-bar {
+    animation: js 4s normal forwards;
+}
+.sass-bar {
+    animation: sass 4s normal forwards;
+}
+.react-bar {
+    animation: react 4s normal forwards;
+}
+.git-bar {
+    animation: git 4s normal forwards;
+}
+
+
+@keyframes html {
+    0% { width: 0; }
+    100% { width: 95%; }
+}
+@keyframes css {
+    0% { width: 0; }
+    100% { width: 85%; }
+}
+@keyframes js {
+    0% { width: 0; }
+    100% { width: 65%; }
+}
+@keyframes sass {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+@keyframes react {
+    0% { width: 0; }
+    100% { width: 60%; }
+}
+@keyframes git {
+    0% { width: 0; }
+    100% { width: 70%; }
+}
+
+.skills-soft {
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: url("../assets/webb.jpg") black fixed no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.skills-soft::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.8;
+}
+.soft-bg {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    color: #ffbfaf;
+}
+.types {
+    display: flex; 
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 18px;
+}
+.types img {
+    width: 20px;
+}
+
+/* PORTFOLIO *************************************************/
+
+.portfolio-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio h2 {
+    margin-left: 120px;
+    font-size: 20px;
+    color: #000030;
+    font-style: italic;
+    margin-top: 30px;
+}
+.project-card {
+    position: relative;
+    cursor: pointer;
+    margin: 20px;
+    height: 250px;
+}
+.project-card:hover  {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+.project-card img {
+    width: 250px;
+}
+.reverse-card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+    z-index: 999;
+    top: 0;
+    left: 0;
+    
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none; 
+}
+.reverse-card:hover {
+    transition: 0.5s;
+    background-color: #070724;
+    opacity: 0.95;
+}
+.project-desc {
+    padding: 0 20px;
+    padding-top: 50px;
+}
+.card-tags {
+    list-style: none;
+    line-height: 20px;
+    font-style: italic;
+    font-size: 12px;
+}
+.project-tags {
+    transition: 0.5s;
+    padding: 10px;
+}
+
+/* FOOTER *************************************************/
+
+footer {
+    background: #272747;
+    padding: 0 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.mentions {
+    font-size: 13px;
+}
+.mentions:hover {
+    cursor: pointer;
+    color: #ff977d;
+    transition: 0.3s;
+}
+.copyrights {
+    margin-bottom: 20px;
+}
