@@ -77,6 +77,18 @@ a {
         width: 80%;
     }
 }
+@media screen and (max-width: 500px) {
+    .nav {
+        width: 88%;
+        font-size: 14px;
+    }
+    .logo {
+        font-size: 18px;
+    }
+    .header {
+        padding: 20px 0px;
+    }
+}
 .menu {
     display: flex;
     justify-content: center;
@@ -99,6 +111,12 @@ a {
     position: relative;
     background: url(../assets/heroimage4.PNG) no-repeat fixed 0px 0px;
     background-size: 100% 100%;
+}
+@media screen and (max-width: 500px) {
+    .home {
+        height: 70vh;
+        background-size: 110% 70%;
+    }
 }
 .home::after {
     content: "";
@@ -133,6 +151,29 @@ a {
     font-weight: normal;
     color: #FFB4A2;
     font-family: "Advent Pro", sans-serif;
+}
+.none-anim {
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .welcome {
+        font-size: 25px;
+    }
+    .name {
+        font-size: 50px;
+    }
+    .animation {
+        display: none;
+    }
+    .none-anim {
+        display: flex;
+        font-weight: normal;
+        color: #FFB4A2;
+        font-family: "Advent Pro", sans-serif;
+    }
+    .content {
+        line-height: 45px;
+    }
 }
 
 /* PROFILE *************************************************/
@@ -172,6 +213,15 @@ a {
         display: none;
     }
 }
+@media screen and (max-width: 500px)  {
+    .title {
+        font-size: 25px;
+    }
+    .contents p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
 
 /* QUOTES *************************************************/
 
@@ -196,7 +246,12 @@ a {
     background: black;
     opacity: 0.8;
 }
-
+@media screen and (max-width: 500px) {
+    .section-quote p {
+        font-size: 14px;
+        width: 80%;
+    }
+}
 /* SKILLS *************************************************/
 
 .skills-content {
@@ -376,8 +431,11 @@ a {
     }
 
 }
-
-
+@media screen and (max-width: 500px)  {
+    .types {
+        font-size: 13px;
+    }
+}
 
 /* PORTFOLIO *************************************************/
 
@@ -410,11 +468,9 @@ a {
     width: 100%;
     height: 100%;
     position: absolute;
-    
     z-index: 999;
     top: 0;
     left: 0;
-    
     font-size: 15px;
     line-height: 22px;
     text-align: center;
@@ -443,6 +499,7 @@ a {
     padding: 10px;
 }
 
+
 /* FOOTER *************************************************/
 
 footer {
@@ -464,6 +521,12 @@ footer {
 }
 .copyrights {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 500px)  {
+    footer {
+        font-size: 14px;
+    }
 }
 
 /* SOCIAL MEDIA BTN *************************************************/

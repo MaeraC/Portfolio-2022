@@ -10,10 +10,6 @@ socialBtn.classList.add("social-btn");
 linkedinBtn.classList.add("linkedin");
 githubBtn.classList.add("github");
 
-
-
-
-
 socialBtn.addEventListener("click", () => {
     socialBtn.classList.toggle("social-btn-active");
     linkedinBtn.classList.toggle("linkedin-active");
