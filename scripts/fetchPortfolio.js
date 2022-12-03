@@ -7,6 +7,5 @@ fetch("datas/projects.json")
         const projectsModel = projectsFactory(item);
         projectsModel.getProjectsCard();
     })
-
     
 });
