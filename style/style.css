@@ -465,3 +465,63 @@ footer {
 .copyrights {
     margin-bottom: 20px;
 }
+
+/* SOCIAL MEDIA BTN *************************************************/
+
+.social-media {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+.social-btn {
+    width: 50px;
+    height: 50px;
+    background: #131329;
+    border-radius: 50%;
+}
+.social-btn::after {
+    position: absolute;
+    content: url(../assets/icons/share.png);
+    text-align: center;
+    top: 19%;
+    left: 16%;
+}
+.linkedin , .github {
+    width: 40px;
+    height: 40px;
+    display: none;
+    background: #131329;
+    border-radius: 50%;
+}
+.github {
+    transform: translateY(50px);    
+}
+.linkedin-active {
+    display: block;
+    position: absolute;
+    top: -45px;
+    right: 60px;
+}
+.github-active {
+    display: block;
+    position: absolute;
+    top: -150px;
+    right: 10px;
+}
+.social-btn-active {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.social-btn:hover {
+    cursor: pointer;
+    background: #ff977d;
+    transition: 0.5s;
+}
+
+.github img:hover , .linkedin img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}
