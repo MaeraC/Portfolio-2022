@@ -12,6 +12,8 @@ githubBtn.classList.add("github");
 
 linkedinImg.setAttribute("src", "../assets/icons/linkedin.png");
 githubImg.setAttribute("src", "../assets/icons/github.png");
+linkedinImg.setAttribute("alt", "icone linkedin");
+githubImg.setAttribute("alt", "icone github");
 
 
 socialBtn.addEventListener("click", () => {
