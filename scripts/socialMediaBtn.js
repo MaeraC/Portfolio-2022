@@ -20,7 +20,7 @@ socialBtn.addEventListener("click", () => {
     githubBtn.classList.toggle("github-active");
 
     linkedinImg.setAttribute("src", "https://maerac.github.io/Portfolio-2022/assets/icons/linkedin-icon.png");
-    githubImg.setAttribute("src", "../assets/github.png");
+    githubImg.setAttribute("src", "https://maerac.github.io/Portfolio-2022/assets/icons/github.png");
     linkedinImg.setAttribute("alt", "icone linkedin");
     githubImg.setAttribute("alt", "icone github");
 })
