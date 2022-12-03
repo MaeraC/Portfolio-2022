@@ -6,8 +6,8 @@ new Typewriter(txtAnim, {
 
 .changeDelay(60)
 .pauseFor(600)
-.typeString('<span style="font-size: 40px; font-family: Advent Pro">Développeuse Web</span>')
+.typeString('<span style="font-size: 40px; font-family: Advent Pro"> Apprentie Développeuse Web</span>')
 .pauseFor(500)
-.deleteChars(16)
-.typeString('<span style="font-size: 40px; font-family: Advent Pro">Apprentie Développeuse web</span>')
+.deleteChars(26)
+.typeString('<span style="font-size: 40px; font-family: Advent Pro">À la recherche d\'une\ entreprise</span>')
 .start() 

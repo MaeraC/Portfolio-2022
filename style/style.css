@@ -62,6 +62,21 @@ a {
 .nav {
     width: 40%;
 }
+@media screen and (max-width: 1000px) {
+    .nav {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 798px) {
+    .nav {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav {
+        width: 80%;
+    }
+}
 .menu {
     display: flex;
     justify-content: center;
@@ -123,7 +138,6 @@ a {
 /* PROFILE *************************************************/
 
 .profile {
-    height: 80vh;
     margin-bottom: 30px;
 }
 .contents {
@@ -131,15 +145,32 @@ a {
     justify-content: center;
 }
 .contents img {
-    width: 200px;
-    height: 260px;
+    width: 250px;
+    height: 300px;
     margin-right: 100px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .contents p {
     width: 40%;
     line-height: 22px;
     margin: 0;
+}
+@media screen and (max-width: 798px) {
+    .contents img {
+        margin-right: 40px;
+    }
+    .contents p {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contents p {
+        font-size: 15px;
+        width: 80%;
+    }
+    .contents img {
+        display: none;
+    }
 }
 
 /* QUOTES *************************************************/
@@ -249,7 +280,7 @@ a {
 }
 @keyframes js {
     0% { width: 0; }
-    100% { width: 65%; }
+    100% { width: 60%; }
 }
 @keyframes sass {
     0% { width: 0; }
@@ -257,11 +288,37 @@ a {
 }
 @keyframes react {
     0% { width: 0; }
-    100% { width: 60%; }
+    100% { width: 50%; }
 }
 @keyframes git {
     0% { width: 0; }
     100% { width: 70%; }
+}
+
+@media screen and (max-width: 798px) {
+    .cv-container img {
+        width: 200px;
+        margin-top: 15px;
+    }
+    .skills-animation {
+        margin-top: 0;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .section-skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skills-content {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .skills-animation {
+        width: 80%;
+    }
 }
 
 .skills-soft {
@@ -300,6 +357,27 @@ a {
 .types img {
     width: 20px;
 }
+
+@media screen and (max-width: 798px) {
+    .types {
+        font-size: 15px;
+    }
+    .types img {
+        width: 16px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .types {
+        flex-wrap: wrap;
+    }
+    .bloc {
+        margin: 20px;
+    }
+
+}
+
+
 
 /* PORTFOLIO *************************************************/
 

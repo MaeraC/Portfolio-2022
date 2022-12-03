@@ -7,7 +7,7 @@ const text = document.createElement("p");
 title.classList.add("title");
 contents.classList.add("contents");
 
-img.setAttribute("src", "assets/IMG_0139.jpg");
+img.setAttribute("src", "assets/Peachy_Photo.jpg");
 img.setAttribute("alt", "Portrait de Maera Contaret");
 
 title.textContent = "qui suis-je ?";
