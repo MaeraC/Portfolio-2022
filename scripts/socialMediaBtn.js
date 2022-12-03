@@ -10,7 +10,7 @@ socialBtn.classList.add("social-btn");
 linkedinBtn.classList.add("linkedin");
 githubBtn.classList.add("github");
 
-linkedinImg.setAttribute("src", "../assets/icons/linkedin.png");
+linkedinImg.setAttribute("src", "../assets/linkedin.png");
 githubImg.setAttribute("src", "../assets/icons/github.png");
 linkedinImg.setAttribute("alt", "icone linkedin");
 githubImg.setAttribute("alt", "icone github");
