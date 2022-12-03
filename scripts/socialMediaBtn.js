@@ -10,16 +10,19 @@ socialBtn.classList.add("social-btn");
 linkedinBtn.classList.add("linkedin");
 githubBtn.classList.add("github");
 
-linkedinImg.setAttribute("src", "../assets/icons/linkedin-icon.png");
-githubImg.setAttribute("src", "../assets/github.png");
-linkedinImg.setAttribute("alt", "icone linkedin");
-githubImg.setAttribute("alt", "icone github");
+
+
 
 
 socialBtn.addEventListener("click", () => {
     socialBtn.classList.toggle("social-btn-active");
     linkedinBtn.classList.toggle("linkedin-active");
     githubBtn.classList.toggle("github-active");
+
+    linkedinImg.setAttribute("src", "../assets/icons/linkedin-icon.png");
+githubImg.setAttribute("src", "../assets/github.png");
+linkedinImg.setAttribute("alt", "icone linkedin");
+githubImg.setAttribute("alt", "icone github");
 })
 
 linkedinBtn.addEventListener("click", () =>{
