@@ -18,11 +18,11 @@ contacts.style.display = "flex";
 contacts.style.justifyContent = "space-around";
 contacts.style.marginBottom = "30px";
 
-emailIcone.setAttribute("src", "../assets/icons/email.png");
+emailIcone.setAttribute("src", "https://maerac.github.io/Portfolio-2022/assets/icons/email.png");
 emailIcone.setAttribute("alt", "Icone Email");
-linkedinIcone.setAttribute("src", "../assets/icons/linkedin-icon.png");
+linkedinIcone.setAttribute("src", "https://maerac.github.io/Portfolio-2022/assets/icons/linkedin-icon.png");
 linkedinIcone.setAttribute("alt", "Icone Linkedin");
-githubIcone.setAttribute("src", "../assets/icons/github.png");
+githubIcone.setAttribute("src", "https://maerac.github.io/Portfolio-2022/assets/icons/github.png");
 githubIcone.setAttribute("alt", "Icone Github");
 emailBox.setAttribute("href", "mailto:maera.contaret@outlook.fr");
 emailBox.setAttribute("target", "_blank");
