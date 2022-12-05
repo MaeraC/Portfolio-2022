@@ -25,8 +25,11 @@ linkedinIcone.setAttribute("alt", "Icone Linkedin");
 githubIcone.setAttribute("src", "../assets/icons/github.png");
 githubIcone.setAttribute("alt", "Icone Github");
 emailBox.setAttribute("href", "mailto:maera.contaret@outlook.fr");
+emailBox.setAttribute("target", "_blank");
 linkedinBox.setAttribute("href", "https://www.linkedin.com/in/maera-contaret-5ab94a221/");
+linkedinBox.setAttribute("target", "_blank");
 githubBox.setAttribute("href", "https://github.com/MaeraC");
+githubBox.setAttribute("target", "_blank");
 
 emailText.textContent = "Envoyer un e-mail";
 linkedinText.textContent = "Visiter mon Linkedin";
