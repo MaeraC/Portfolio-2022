@@ -507,25 +507,20 @@ a {
 
 footer {
     background: #272747;
-    padding: 0 50px;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding: 20px;
     color: white;
     text-align: center;
     margin-top: 50px;
+    font-size: 12px;
 }
-.mentions {
-    font-size: 13px;
-}
-.mentions:hover {
-    cursor: pointer;
+footer a:hover {
     color: #ff977d;
     transition: 0.3s;
 }
-.copyrights {
-    margin-bottom: 20px;
+footer img {
+    width: 35px;
+    margin-bottom: 5px;
 }
-
 @media screen and (max-width: 500px)  {
     footer {
         font-size: 14px;
