@@ -69,6 +69,29 @@
     ]
  },
  {
+ "image": "assets/projects-img/kasa.png",
+ "title": "Projet KASA",
+ "link": "https://maerac.github.io/KASA/",
+ "description": "Plateforme de location d’appartements entre particuliers.",
+ "tags": [
+     "React",
+     "Fetch Database",
+     "Responsive Design"
+   ]
+}, 
+{
+  "image": "assets/projects-img/sportsee.png",
+  "title": "Projet SportSee",
+  "link": "https://maerac.github.io/SportSee/",
+  "description": "Tableau de bord analytique de performances sportives et indicateurs physiologiques.",
+  "tags": [
+      "React",
+      "Fetch Database",
+      "Hooks",
+      "Recharts"
+    ]
+ }, 
+ {
   "image": "assets/projects-img/funnyjokes.png",
   "title": "Projet Funny Jokes",
   "link": "https://maerac.github.io/Funny-Jokes/",
