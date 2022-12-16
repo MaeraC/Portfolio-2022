@@ -1,10 +1,10 @@
 var txtAnim = document.querySelector(".animation");
 
 new Typewriter(txtAnim, {
-   deleteSpeed: 70,
+   deleteSpeed: 50,
 })
 
-.changeDelay(60)
+.changeDelay(70)
 .pauseFor(600)
 .typeString('<span style="font-size: 40px; font-family: Advent Pro">Développeuse Web en alternance</span>')
 .pauseFor(500)
