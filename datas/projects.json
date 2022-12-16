@@ -90,53 +90,5 @@
       "Hooks",
       "Recharts"
     ]
- }, 
- {
-  "image": "assets/projects-img/funnyjokes.png",
-  "title": "Projet Funny Jokes",
-  "link": "https://maerac.github.io/Funny-Jokes/",
-  "description": "Générateur de blagues.",
-  "tags": [
-      "Projet personnel",
-      "Jeu"
-    ]
- },
- {
-  "image": "assets/projects-img/bubble.png",
-  "title": "Projet Bubbles Game",
-  "link": "https://maerac.github.io/Bubble-Game/",
-  "description": "Générateur de bulles.",
-  "tags": [
-      "Projet personnel",
-      "Jeu"
-    ]
- },
- {
-  "image": "assets/projects-img/calc.png",
-  "title": "Projet Calculatrice",
-  "link": "https://maerac.github.io/Calculatrice/",
-  "description": "Création d'une calculatrice.",
-  "tags": [
-      "Projet personnel"
-    ]
- },
- {
-  "image": "assets/projects-img/nature.png",
-  "title": "Projet Nature et moi",
-  "link": "https://maerac.github.io/NaturEmoi/",
-  "description": "Front d'une boutique en ligne.",
-  "tags": [
-      "Projet personnel"
-    ]
- },
-  {
-  "image": "assets/projects-img/music.png",
-  "title": "Projet Jeu de musique",
-  "link": "https://maerac.github.io/MusicKeyboard/",
-  "description": "Jouer de la musique - Music keyboard.",
-  "tags": [
-      "Projet personnel",
-      "Jeu"
-    ]
  }
 ]

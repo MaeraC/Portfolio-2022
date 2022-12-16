@@ -22,7 +22,6 @@ a {
     padding-bottom: 70px;
     padding-top: 50px;
     margin: 0;
-    text-shadow: 4px 4px 7px rgb(107, 107, 107);
     color: #272747;
 }
 
@@ -59,8 +58,8 @@ a {
     font-family: "Dancing Script";
     font-size: 25px;
 }
-.nav {
-    width: 40%;
+@media screen and (min-width: 1000px) {
+
 }
 @media screen and (max-width: 1000px) {
     .nav {
@@ -184,17 +183,24 @@ a {
 .contents {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .contents img {
     width: 250px;
     height: 300px;
     margin-right: 100px;
     margin-top: 10px;
+    border: 3px solid #ffa28a;
 }
 .contents p {
     width: 40%;
     line-height: 22px;
     margin: 0;
+}
+@media screen and (min-width: 1400px) {
+    .contents p {
+        width: 30%;
+    }
 }
 @media screen and (max-width: 798px) {
     .contents img {
@@ -278,7 +284,21 @@ a {
     text-align: center;
     padding: 6px;
 }
-
+.cv-container a:hover {
+    background: #ff977d;
+    color: #070724;
+    transition: 0.3s;
+}
+@media screen and (min-width: 1400px) {
+    .skills-content {
+        justify-content: center;
+        align-items: center;
+        padding: 0 10%;
+    }
+    .cv-container {
+        margin-right: 100px;
+    }
+}
 .skills-animation {
     width: 45%;
     margin-top: 30px;
@@ -454,6 +474,11 @@ a {
     font-style: italic;
     margin-top: 30px;
 }
+@media screen and (min-width: 1400px) {
+    .portfolio {
+        padding: 0 20%;
+    }
+}
 .project-card {
     position: relative;
     cursor: pointer;
@@ -538,15 +563,25 @@ footer img {
 .social-btn {
     width: 50px;
     height: 50px;
-    background: #131329;
+    background: #ff977d;
     border-radius: 50%;
+    transition: 0.3s;
 }
 .social-btn::after {
     position: absolute;
     content: url(../assets/icons/share.png);
     text-align: center;
-    top: 19%;
-    left: 16%;
+    top: 18%;
+    left: 14%;
+    transition: 0.3s;
+}
+.social-btn:hover::after{
+    position: absolute;
+    content: url(../assets/icons/share2.png);
+    text-align: center;
+    top: 18%;
+    left: 14%;
+    transition: 0.3s;
 }
 .linkedin , .github {
     width: 40px;
@@ -577,12 +612,12 @@ footer img {
 }
 .social-btn:hover {
     cursor: pointer;
-    background: #ff977d;
-    transition: 0.5s;
+    background: #272747;
+    transition: 0.3s;
 }
 
 .github img:hover , .linkedin img:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
     transition: 0.3s;
     cursor: pointer;
 }
