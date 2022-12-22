@@ -1,17 +1,4 @@
 [
-  {
-  "image": "assets/projects-img/spotifly.png",
-  "title": "Projet Spotifly",
-  "link": "https://maerac.github.io/Spotifly/",
-  "description": "Clone de Spotify, la plateforme de streaming musical.",
-  "tags": [
-      "PROJET EN COURS",
-      "HTML - SASS - JS",
-      "Gestion API",
-      "Axios",
-      "Pattern Factory"
-    ]
- },
  {
   "image": "assets/projects-img/omfood.png",
   "title": "Projet Oh My Food",
@@ -90,6 +77,18 @@
       "User Stories",
       "Création de maquettes UX/UI",
       "Responsive Design"
+    ]
+ },
+ {
+  "image": "assets/projects-img/sportsee.png",
+  "title": "Projet SportSee",
+  "link": "https://maerac.github.io/SportSee/",
+  "description": "Création d'un tableau de bord analytique de performances sportives et indicateurs physiologiques.",
+  "tags": [
+      "React - React Router",
+      "HTML - SASS - JS",
+      "Fetch database",
+      "Recharts"
     ]
  }
 ]

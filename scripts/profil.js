@@ -16,7 +16,7 @@ title.textContent = "qui suis-je ?";
 text.innerHTML = "Hello ! Je m’appelle Maera Contaret, développeuse web en plein apprentissage." + "<br></br>" +
 "Passionnée par les métiers du web depuis de nombreuses années, j’ai décidé de me reconvertir dans le domaine et d’en faire mon métier." + "<br></br>" +
 "C'est pourquoi j'ai suivie une formation dans le développement front-end en me spécialisant dans le langage Javascript." + "</br>" +
-"Je souhaite désormais en apprendre davantage." + "<br></br>" + 
+"Je souhaite désormais en apprendre davantage, notamment le développement back-end." + "<br></br>" + 
 "Cette expérience m’a permis d’acquérir un bon nombre de compétences que je souhaite aujourd’hui approfondir et développer en intégrant une entreprise en tant qu'alternante."
 
 
