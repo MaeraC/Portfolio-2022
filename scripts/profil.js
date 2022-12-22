@@ -6,6 +6,7 @@ const text = document.createElement("p");
 
 title.classList.add("title");
 contents.classList.add("contents");
+img.classList.add("box-shadow");
 
 img.setAttribute("src", "assets/Peachy_Photo.jpg");
 img.setAttribute("alt", "Portrait de Maera Contaret");
